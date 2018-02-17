@@ -1,21 +1,19 @@
-#!/bin/
+#!/usr/bin/python
 #
 # Reddit Post Scheduler
 #
 # Luke Rindels
 # February 8, 2018
 
-# imports
 from prawcore import NotFound
 import sys
 import praw
 import datetime
 import time
 
-# initialize instance 
+# initialize instance (change 'bot1' if you changed the name of the configuration in 'praw.ini')
 reddit = praw.Reddit('bot1')
 
-### functions ###
 # get subreddit name
 def get_sub():
     while 1:
