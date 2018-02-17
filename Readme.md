@@ -49,4 +49,4 @@ ___
 ##### Other issues:
 * Do you have tmux, python3, and all of the python modules installed? To install, `sudo apt-get install tmux`
 * Have you tried turning everything off and back on again?
-* If none of the above work, email me at lukerindels98@hotmail.com and I'll try to help
+* If none of the above work, email me at lukerindels983@gmail.com and I'll try to help
