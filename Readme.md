@@ -1,10 +1,9 @@
 # Reddit Post Scheduler
 ##### by Luke Rindels
-***
+
 This is a tool to delay Reddit posts. URLs and Text posts can be submitted to any subreddit or profile at any time. It is intended to be run on an always running Raspberry Pi, but can also be set to run in the background of whatever system you're using. 
 
 ## Getting Started
-___
 #### PRAW
 The Python Reddit API Wrapper (PRAW) is required to use the scripts, documentation can be found [here](https://praw.readthedocs.io/en/latest/getting_started/quick_start.html "PRAW | Getting Started"). Once you create an app in your Reddit account settings, you can fill in the required fields in praw.ini. You will need to know the client id, client secret, username, and password of your reddit app along with creating a user agent. I recommend following praw's guidelines. For example:
 ```
@@ -37,7 +36,6 @@ sudo reboot
 Everything should be working now! If not, head on down to the Troubleshooting section.
 
 ## Troubleshooting 
-___
 ##### Issues with scheduler.py:
 * Make sure that your praw.ini credentials are entered correctly
 * Try placing the praw.ini file in the same directory as scheduler.py
