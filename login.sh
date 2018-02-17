@@ -1,7 +1,7 @@
 #!/bin/bash
-#~/redditbot/login.sh
 
 tmux new-session -A -s schedule;
-python3 /home/pi/redditbot/scheduler/scheduler.py;
+# change path to whatever directory scheduler.py is in
+python3 /home/pi/redditbot/scheduler.py;
 tmux kill-session;
 
